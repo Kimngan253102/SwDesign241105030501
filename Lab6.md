@@ -27,6 +27,7 @@
 
 ### 1.4: **Xác định các phụ thuộc, quan hệ kết hợp**
 Sơ đồ:
+
 ![Diagram](https://www.planttext.com/api/plantuml/png/d92n2i8m48RtF4NePC6-G0QfT114fohEPtlKG7gHIre7ySaSV2HVmRIqejB9R3dk_xwxUzuVgVF0lgcDA0mu9pUsqfHPycoDGPPN8VjdklgiSSW4DIgPUzPKpUKvX2wMox4IAtcqrY2Gk8c1kG-fBH1K7xmMZ2x1OyPO8daDnlr9NpR-r14AyDfIZjpg0j-U2WavUDQ7NSzN_JJn2EmmloidoU9hP2MZy7NHPEEqFKHMWzZ9e8v4YbI6Axy0003__mC0)
 ---
 
@@ -57,6 +58,7 @@ Sơ đồ:
 
 ### 2.4: **Xác định các phụ thuộc, quan hệ kết hợp**
 Sơ đồ:
+
 ![Diagram](https://www.planttext.com/api/plantuml/png/R9112i8m44NtEKLmLS5U80ifs8NTMZr0I8OQI9iocHQAU38N7iah64LZgCrYDlFcpPyyRlV2aqGQMikKbTxpesb1ITGxrn4wQm7vXV7tKmYIu0jaqFRMJG1LANXDQBfcmtK012z3NOkeObSsazU0er4GpLBhlHlGP_G1KkVvrH6ywWWQmE0TdLbm7g1ttf33AMgz724gVtaInSArURxzooduwkJ1hzYyaS99WC3NONSOAA3JuNEV0000__y30000)
 ---
 ## 3. **Thiết kế chi tiết cho các lớp trong Hệ thống Xử lý Lương (Payroll Processing System)**
@@ -87,6 +89,8 @@ Sơ đồ:
 | **PaymentService**     | `paymentMethod: String`                       | Phương thức thanh toán (chuyển khoản hoặc paycheck).  |
 
 ### 3.4: **Xác định các phụ thuộc, quan hệ kết hợp**
+Sơ đồ:
+
 ![Diagram](https://www.planttext.com/api/plantuml/png/T5512i8m4Bpt5Q6dUkW7Uf22WdWJgmzOqqK2QIARRQ68B_FWa_o2gKtHrffBTZSpavdaUN_aZe6uhdGaDJWdTj2IrNfb3NSxahX6uhqkP2Kw5m09gmebK9c9GwWMcMYiAgDRDD42BMiDR3zQCeom00tKpekjRNtIE9Ahq721r2Y9CxwwqmGgMniUs3-UzdYnn1iqI2D7vtw2mNCFIpozhpg1twT9q-LCo4p4HuSk_a_uZk7HMwDO-Rl_KgQcFISqE2Jot1nDwJ_o1G00__y30000)
 ---
 ## 4. **Thiết kế chi tiết cho các lớp trong Hệ thống Thanh toán (Payment System)**
@@ -114,6 +118,8 @@ Sơ đồ:
 | **PrintService**    | `paycheckAmount: Double`                | Số tiền paycheck cần in.                       |
 
 ### 4.4: **Xác định các phụ thuộc, quan hệ kết hợp**
+Sơ đồ:
+
 ![Diagram](https://www.planttext.com/api/plantuml/png/LCv12i8m40NGVKuHkggBNY0BAIA2kw8d69EfXgOJd9aKH3oP2u_a5HHnqVxzV_-_dwzM55ZBc8nF868tGCEU5Ba7Z_Pkx2_AGD8Zxme5gM7CXTJPRIwdX2jdfno3UPW_qN4aFI9FSIQSaP11iOERlw0VwbbjkTaqwoNXR7N0Qq5HgKoB5BvlFm000F__0m00)
 ---
 ## 5. **Thiết kế chi tiết cho các lớp trong Hệ thống Báo cáo (Reporting System)**
@@ -146,6 +152,8 @@ Sơ đồ:
 | **ExportService** | `fileFormat: String`                    | Định dạng xuất báo cáo (PDF, Excel, CSV).                  |
 
 ### 5.4: **Xác định các phụ thuộc, quan hệ kết hợp**
+Sơ đồ:
+
 ![Diagram](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bToJc9niK9GQa5-KObpVbv9KNvEJcgHGZMN0XYaf-Qb5YMMf48KQ6XQGPLorNAXQ0rEBIhBJ4x5q1UGM0ao4RTsrmfisbF1eY7v0Ivk6aLW7J2TG2FAyZDJqDIvLYIdvX2bqZau38Swe9CmWa5NrmxDWrOAIg75gSLANAZ288MeNW4gX0W0rJgavgK00ni0003__mC0)
 ---
 ## 6. **Thiết kế chi tiết cho các lớp trong Hệ thống Lập lịch (Scheduler System)**
@@ -175,4 +183,6 @@ Sơ đồ:
 |                          | `jobExecutionTime: Date`               | Thời gian thực thi công việc.                           |
 
 ### 6.4: **Xác định các phụ thuộc, quan hệ kết hợp**
+Sơ đồ:
+
 ![Diagram](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bToJc9niK9mPN59QgvpJdvojcTUIMfHMc9oga8rbm8OfAUME9SM5QNcbOHavgPgQ5efk2IMf7BLSa4rU-Kd1ITdfAQKvgGMmJKLGqM0aXfP-KbM85Kw2YL00o3QWQQKvMUcG5MdLgGcbvQamen9GTO5Kmcq3wipTNNjK9rWfQ0KMfnQhCJba9gN0lGZ0000__y30000)
