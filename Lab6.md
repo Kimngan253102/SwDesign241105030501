@@ -1,5 +1,5 @@
 ## Bài thực hành Lab6 
-##THIẾT KẾ LỚP, HỆ THỐNG PAYROLL SYSTEM
+## THIẾT KẾ LỚP, HỆ THỐNG PAYROLL SYSTEM
 ---
 ## 1. **Thiết kế chi tiết cho các lớp trong Hệ thống Xác thực (Authentication System)**
 ### 1.1: Xác Định Các Operations
